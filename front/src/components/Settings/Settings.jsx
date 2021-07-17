@@ -99,7 +99,7 @@ const Settings = ({ canvas, selectedObject, setSelectedObject }) => {
     key => value => {
       if (!selectedObject) return
 
-      selectedObject.set(key, parseInt(value, 10)).setCoords()
+      selectedObject.set(key, Number(value)).setCoords()
       canvas.requestRenderAll()
       dispatch({ type: 'update', payload: { key, value } })
     },
