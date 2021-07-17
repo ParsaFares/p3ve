@@ -78,9 +78,20 @@ const Toolbar = ({ canvas }) => {
           // start fabricJS stuff
           const image = new fabric.Image(imgObj)
           image.set({
+            name: 'newObject',
             left: 20,
             top: 20,
+            z: 0,
           })
+
+          image.toObject = (function (toObject) {
+            return function () {
+              return fabric.util.object.extend(toObject.call(this), {
+                name: this.name,
+                z: this.z,
+              })
+            }
+          })(image.toObject)
 
           //image.scale(getRandomNum(0.1, 0.25)).setCoords();
           canvas.add(image)

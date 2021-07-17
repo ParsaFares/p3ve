@@ -2,86 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="19406716-fb32-42b2-b073-b19a8e0b976b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.prettierrc.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/LICENSE" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/public/error.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/public/fonts.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/public/icon.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/public/images/appbar.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/public/images/checkMark.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/public/images/close.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/public/images/draggable.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/public/images/member.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/public/images/question.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/public/images/time.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/public/images/user.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/public/medals/bronze.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/public/medals/gold.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/public/medals/silver.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/public/person.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/public/weblite.manifest.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/src/components/Atomics/Button/Button.presentational.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/src/components/Atomics/Button/Button.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/src/components/Atomics/RangeSlider/RangeSlider.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/src/components/Atomics/RemoveButton/RemoveButton.presentational.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/src/components/Atomics/Slider/Slider.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/src/components/Atomics/TextField/TextField.presentational.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/src/components/Atomics/TextField/TextField.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/src/components/Canvas/Canvas.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/src/components/Canvas/canvas.container.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/src/components/Helpers/GroupButton/GroupButton.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/src/components/Helpers/Inform/Inform.action.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/src/components/Helpers/Inform/Inform.container.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/src/components/Helpers/Inform/Inform.presentational.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/src/components/Helpers/Inform/Inform.reducer.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/src/components/Helpers/Inform/inform.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/src/components/Helpers/Select/Select.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/src/components/Helpers/TextField/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/src/components/Helpers/TextField/input.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/src/components/Helpers/TextField/textField.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/src/components/Helpers/TextField/textField.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/src/components/Main/Main.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/src/components/Main/main.container.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/src/components/Main/main.selector.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/src/components/Settings/Settings.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/src/components/Settings/settings.container.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/src/components/Toolbar/Toolbar.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/src/components/Toolbar/toolbar.container.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/src/helpers/appTheme.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/src/helpers/exceptions.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/src/helpers/mockWebliteAPI.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/src/helpers/requestHandler.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/src/helpers/testRequestWrapper.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/src/helpers/utils.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/src/logic/action.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/src/logic/effect.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/src/logic/reducer.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/src/setup/analytics.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/src/setup/config.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/src/setup/fonts/fonts.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/src/setup/fonts/woff/iranyekanwebbold.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/src/setup/fonts/woff/iranyekanwebmedium.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/src/setup/fonts/woff/iranyekanwebregular.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/src/setup/redux.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/src/setup/root.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/src/setup/root.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/src/style/_variable.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/src/style/appStyle.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/src/style/appTheme.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/front/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/front/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front/public/favicon.ico" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/front/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/front/public/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front/public/logo192.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/front/public/logo512.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/front/public/manifest.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/front/public/robots.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/front/src/App.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/front/src/App.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/front/src/codegen.js" beforeDir="false" afterPath="$PROJECT_DIR$/front/src/codegen.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front/src/index.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/front/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/front/src/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/front/yarn.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/src/components/Helpers/TextField/input.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/front/src/components/Helpers/TextField/input.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/src/components/Helpers/TextField/textField.scss" beforeDir="false" afterPath="$PROJECT_DIR$/front/src/components/Helpers/TextField/textField.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -127,7 +50,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1626543028385</updated>
-      <workItem from="1626543031144" duration="273000" />
+      <workItem from="1626543031144" duration="1074000" />
     </task>
     <servers />
   </component>

@@ -36,7 +36,7 @@ const Input = ({
       id={id}
       name={name}
       onBlur={onBlur}
-      onChange={(e) => onChange(e.target.value)}
+      onChange={e => onChange(e.target.value)}
       onFocus={onFocus}
       onKeyPress={onKeyPress}
       placeholder={placeholder}
@@ -44,7 +44,6 @@ const Input = ({
       value={value}
       disabled={disabled}
       {...other}
-
     />
   )
 }

@@ -1,8 +1,11 @@
 .c--text-field-container {
   width: 100%;
-  margin-top: 15px;
-}
+  margin-top: 10px;
 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
 .c--text-field-container:first-child {
   margin-top: 0;
@@ -19,7 +22,7 @@
 }
 
 .c--input-base::placeholder {
-  direction: rtl;
+  direction: ltr;
 }
 
 .c--input-base-disabled {
@@ -49,9 +52,8 @@
 
 .c--text-field-label {
   font-size: 12px;
-  width: 100%;
-  margin-bottom: 8px;
-  direction: rtl;
+  margin-right: 10px;
+  min-width: 50px;
 }
 
 .c--text-field-label-error {
