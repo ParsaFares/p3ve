@@ -1,0 +1,102 @@
+html {
+  overflow: auto; // for full height which applies to body tag
+}
+body {
+  width: 100%;
+  margin: 0;
+  color: black;
+  
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+html,
+body,
+#root {
+  height: 100%;
+  background-color: #E5E5E5;
+}
+
+#root {
+  overflow: hidden; // for sticking whole app to top
+}
+
+button,
+textarea,
+input,
+p,
+span,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+div,
+label {
+  font-family: Iranyekan !important;
+}
+
+// Fancy scroll-bars
+.scroll-bar {
+  --thumb-color: rgba(0, 0, 0, 0.5);
+  --thumb-color__active: rgba(0, 0, 0, 0.8);
+  --track-color: #fff;
+
+  // simulate vertical Scrolling behavior
+  overflow: auto;
+  overflow-x: hidden;
+
+  // IOS Smooth Scrolling
+  -webkit-overflow-scrolling: touch;
+
+  // Mozilla
+  scrollbar-color: var(--thumb-color) var(--track-color);
+  scrollbar-width: thin;
+
+  // Chrome & Safari
+  &::-webkit-scrollbar {
+    width: 4px;
+  }
+  &::-webkit-scrollbar-thumb {
+    background: var(--thumb-color);
+  }
+  // &::-webkit-scrollbar-thumb {
+  // background: var(--thumb-color__active);
+  // }
+  &::-webkit-scrollbar-track {
+    background-color: var(--track-color);
+  }
+  &::-webkit-scrollbar-button {
+    display: none;
+  }
+}
+
+input,
+textarea,
+button,
+select,
+a,
+div,
+span {
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+//#canvas {
+//  width: 100% !important;
+//  height: 100% !important;
+//}
+//
+//.canvas-container {
+//  width: 100% !important;
+//  height: 100% !important;
+//}
+//
+//.upper-canvas {
+//  width: 100% !important;
+//  height: 100% !important;
+//}

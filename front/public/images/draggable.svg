@@ -1,0 +1,11 @@
+<svg width="24" height="16" xmlns="http://www.w3.org/2000/svg">
+    <path fill="none" d="M-1-1h26v18H-1z"/>
+    <g transform="translate(-227.8 -151.867) scale(1.00349)">
+    <circle r="3.016" cy="155.585" cx="231.315" fill="#ccc"/>
+    <circle transform="rotate(-45 234.701 155.587)" r="3.016" cy="158.603" cx="237.717" fill="#ccc"/>
+    <circle r="3.016" cy="155.585" cx="246.584" fill="#ccc"/>
+    <circle transform="rotate(-45 227.067 163.036)" r="3.016" cy="166.052" cx="230.083" fill="#ccc"/>
+    <circle transform="rotate(-13.282 235.355 160.794)" r="3.016" cy="163.81" cx="238.371" fill="#ccc"/>
+    <circle transform="rotate(-45 242.336 163.036)" r="3.016" cy="166.052" cx="245.352" fill="#ccc"/>
+    </g>
+</svg>
