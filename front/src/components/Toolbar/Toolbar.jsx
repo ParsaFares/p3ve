@@ -88,6 +88,7 @@ const Toolbar = ({ canvas }) => {
         }
       }
       if (e.target && e.target.files) {
+        console.log(e.target.files[0])
         reader.readAsDataURL(e.target.files[0])
       }
     },
