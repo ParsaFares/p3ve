@@ -78,7 +78,7 @@ const CustomizedButton = ({
         ab(classes.fixedRoot)(fixed),
         ab('labeled--button')(labeled && selected),
         ab(classes.labeledRoot)(labeled),
-        classesProp.button
+        classesProp.button,
       )}
       style={{
         ...style,

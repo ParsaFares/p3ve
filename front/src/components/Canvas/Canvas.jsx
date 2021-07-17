@@ -21,9 +21,7 @@ const Canvas = ({ setCanvas, setSelectedObject }) => {
 
     setCanvas(canvas)
     canvas.on('mouse:down', function (options) {
-      if (options.target) {
-        setSelectedObject(options.target)
-      }
+      setSelectedObject(options.target ? options.target : null)
     })
   }, [])
 
