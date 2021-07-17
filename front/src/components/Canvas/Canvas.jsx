@@ -14,8 +14,8 @@ const Canvas = ({ setCanvas, setSelectedObject }) => {
 
   useEffect(() => {
     const canvas = new fabric.Canvas('canvas', {
-      width: 500,
-      height: 500,
+      width: 1000,
+      height: 675,
       backgroundColor: '#ffffff',
     })
 
