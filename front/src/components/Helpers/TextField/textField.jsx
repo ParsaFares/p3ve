@@ -47,17 +47,20 @@ class TextField extends Component {
       'c--text-field-base',
       ab('c--text-field-focused')(isFocus),
       ab('c--text-field-error')(hasError),
-      textFieldClassName
+      textFieldClassName,
     )
 
     return (
-      <div style={{ marginTop: attachMode ? 0 : 15 }} className="c--text-field-container">
+      <div
+        style={{ marginTop: attachMode ? 0 : 15 }}
+        className="c--text-field-container"
+      >
         {label && (
           <div
             className={cns(
               'c--text-field-label',
               ab('c--text-field-label-error')(hasError),
-              ab('c--text-field-disabled')(disabled)
+              ab('c--text-field-disabled')(disabled),
             )}
           >
             {`${label}${required ? ' *' : ''}`}
@@ -72,7 +75,6 @@ class TextField extends Component {
             {...inputProps}
             inputRef={inputRef}
             value={value}
-            dir="rtl"
           />
         </div>
         {/* {hasError && (

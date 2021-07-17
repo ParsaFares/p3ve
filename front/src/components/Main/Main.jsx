@@ -20,7 +20,7 @@ const useStyles = makeStyles({
     overflow: 'hidden',
   },
   settingsContainer: {
-    width: 300,
+    width: 200,
     flexShrink: 0,
 
     display: 'flex',
@@ -56,7 +56,7 @@ const useStyles = makeStyles({
   },
 })
 
-const Main = ({ calculatedAge }) => {
+const Main = () => {
   const classes = useStyles()
   const [canvas, setCanvas] = useState(null)
   const [selectedObject, setSelectedObject] = useState(null)
@@ -64,7 +64,11 @@ const Main = ({ calculatedAge }) => {
   return (
     <div className={classes.mainContainer}>
       <div className={classes.settingsContainer}>
-        <Settings canvas={canvas} selectedObject={selectedObject} />
+        <Settings
+          canvas={canvas}
+          selectedObject={selectedObject}
+          setSelectedObject={setSelectedObject}
+        />
       </div>
       <div className={classes.canvasContainer}>
         <Canvas setCanvas={setCanvas} setSelectedObject={setSelectedObject} />
