@@ -69,6 +69,8 @@ const Toolbar = ({ canvas, onSave, onLoad }) => {
   const addImage = useCallback(
     e => {
       const reader = new FileReader()
+      let fileName = ''
+
       reader.onload = function (event) {
         const imgObj = new Image()
 
@@ -81,12 +83,14 @@ const Toolbar = ({ canvas, onSave, onLoad }) => {
             left: 20,
             top: 20,
             z: 0,
+            fname: fileName,
           })
 
           image.toObject = (function (toObject) {
             return function () {
               return fabric.util.object.extend(toObject.call(this), {
                 name: this.name,
+                fname: this.fname,
                 z: this.z,
               })
             }
@@ -97,7 +101,11 @@ const Toolbar = ({ canvas, onSave, onLoad }) => {
           // end fabricJS stuff
         }
       }
-      if (e.target && e.target.files) reader.readAsDataURL(e.target.files[0])
+
+      if (e.target && e.target.files) {
+        fileName = e.target.files[0].name
+        reader.readAsDataURL(e.target.files[0])
+      }
     },
     [canvas],
   )
