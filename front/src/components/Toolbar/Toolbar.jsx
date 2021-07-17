@@ -2,6 +2,7 @@
 import React, { useCallback } from 'react'
 import { fabric } from 'fabric'
 import { makeStyles } from '@material-ui/core/styles'
+import codegen from '../../codegen.js'
 // helper components
 import { IconButton } from '@material-ui/core'
 import ImageOutlinedIcon from '@material-ui/icons/ImageOutlined'
@@ -63,7 +64,7 @@ const useStyles = makeStyles({
   },
 })
 
-const Toolbar = ({ canvas, onSave, onLoad }) => {
+const Toolbar = ({ canvas }) => {
   const classes = useStyles()
 
   const addImage = useCallback(
@@ -138,7 +139,7 @@ const Toolbar = ({ canvas, onSave, onLoad }) => {
           className={classes.iconButton}
           onClick={e => {
             e.stopPropagation()
-            onSave()
+            codegen(canvas.toDatalessJSON().objects)
           }}
         >
           <SaveOutlinedIcon className={classes.icon} />
@@ -149,7 +150,7 @@ const Toolbar = ({ canvas, onSave, onLoad }) => {
           className={classes.iconButton}
           onClick={e => {
             e.stopPropagation()
-            onLoad()
+            // onLoad()
           }}
         >
           <OpenInBrowserOutlinedIcon className={classes.icon} />
