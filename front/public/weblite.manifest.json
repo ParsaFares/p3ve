@@ -1,0 +1,11 @@
+{
+  "name": "amoozeh",
+  "id": "5fc5604b4407fd44afe66637",
+  "instantiable": false,
+  "searchable": false,
+  "runFromWappsPanel": true,
+  "servIndexes": {
+    "main": "index"
+  },
+  "version": "1.1.0"
+}

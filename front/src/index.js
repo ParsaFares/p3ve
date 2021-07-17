@@ -1,17 +1,28 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
-import './index.css';
-import App from './App';
-import reportWebVitals from './reportWebVitals';
+// modules
+import React from 'react'
+import { render } from 'react-dom'
+import { AppContainer } from 'react-hot-loader'
+// polyfill setup
+import 'core-js/stable'
+import 'regenerator-runtime/runtime'
+// mock API
+import './helpers/mockWebliteAPI'
+// components
+import Root from './setup/root.jsx'
+import './setup/analytics'
+// weblite API
+const { W } = window
 
-ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
-  document.getElementById('root')
-);
+const renderWapp = () =>
+  render(
+    <AppContainer>
+      <Root />
+    </AppContainer>,
+    window.document.getElementById('root')
+  )
 
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
-reportWebVitals();
+// Hot Module Replacement API
+if (module.hot) module.hot.accept('./setup/root.jsx', renderWapp)
+renderWapp()
+
+W.setHooks()
